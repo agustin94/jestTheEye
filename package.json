@@ -1,0 +1,20 @@
+{
+  "name": "test-create-task",
+  "version": "1.0.0",
+  "description": "Test de creacion de task de script",
+  "main": "index.js",
+   "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=100000 ./tests"
+  },
+  "keywords": [
+    "a"
+  ],
+  "author": "Agustin Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "prettier": "^2.0.5",
+    "puppeteer": "^4.0.1"
+  }
+}
